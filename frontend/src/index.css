@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --foreground: #ffffff;
+  --background: #131313;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.container {
+  max-width: 48rem;
+}

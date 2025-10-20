@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# -------------------------
+# Frontend (Vite + Node)
+# -------------------------
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/.cache/
+/frontend/.eslintcache
+/frontend/.DS_Store
+
+# Env files (keep lockfile tracked)
+# If you only want to ignore envs inside frontend:
+# (Leave backend handled below.)
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/.pnpm-debug.log*
+
+# Typescript build info (if emitted)
+/frontend/*.tsbuildinfo
+
+# -------------------------
+# Backend (Python)
+# -------------------------
+/backend/.env
+/backend/venv/
+/backend/.venv/
+/backend/__pycache__/
+/backend/.pytest_cache/
+/backend/*.pyc
+/backend/.mypy_cache/
